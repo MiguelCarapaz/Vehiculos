@@ -8,66 +8,9 @@ public class Vehiculos {
         tipo ="";
         anio = 0;
     }
-    public void vehiculo1() {
+    public void vehiculos() {
         Scanner leer = new Scanner(System.in);
-        Vehiculos Vehiculo1 = new Vehiculos();
-        System.out.println("VEHICULO 1");
-        System.out.print("Ingrese la marca: ");
-        marca = leer.nextLine();
-        System.out.print("Ingrese el tipo de vehiculo: ");
-        tipo = leer.nextLine();
-        System.out.print("Ingrese la placa: ");
-        placa = leer.nextLine();
-        System.out.print("Ingrese el anio: ");
-        anio = leer.nextInt();
-        System.out.println("------------------------------");
-    }
-    public void vehiculo2() {
-        Scanner leer = new Scanner(System.in);
-        Vehiculos vehiculo2 = new Vehiculos();
-        System.out.println("VEHICULO 2");
-        System.out.print("Ingrese la marca: ");
-        marca = leer.nextLine();
-        System.out.print("Ingrese el tipo de vehiculo: ");
-        tipo = leer.nextLine();
-        System.out.print("Ingrese la placa: ");
-        placa = leer.nextLine();
-        System.out.print("Ingrese el anio: ");
-        anio = leer.nextInt();
-        System.out.println("------------------------------");
-    }
-    public void vehiculo3() {
-        Scanner leer = new Scanner(System.in);
-        Vehiculos vehiculo3 = new Vehiculos();
-        System.out.println("VEHICULO 3");
-        System.out.print("Ingrese la marca: ");
-        marca = leer.nextLine();
-        System.out.print("Ingrese el tipo de vehiculo: ");
-        tipo = leer.nextLine();
-        System.out.print("Ingrese la placa: ");
-        placa = leer.nextLine();
-        System.out.print("Ingrese el anio: ");
-        anio = leer.nextInt();
-        System.out.println("------------------------------");
-    }
-    public void vehiculo4() {
-        Scanner leer = new Scanner(System.in);
-        Vehiculos vehiculo4 = new Vehiculos();
-        System.out.println("VEHICULO 4");
-        System.out.print("Ingrese la marca: ");
-        marca = leer.nextLine();
-        System.out.print("Ingrese el tipo de vehiculo: ");
-        tipo = leer.nextLine();
-        System.out.print("Ingrese la placa: ");
-        placa = leer.nextLine();
-        System.out.print("Ingrese el anio: ");
-        anio = leer.nextInt();
-        System.out.println("------------------------------");
-    }
-    public void Vehiculo5() {
-        Scanner leer = new Scanner(System.in);
-        Vehiculos vehiculo5 = new Vehiculos();
-        System.out.println("VEHICULO 5");
+        Vehiculos Vehiculos = new Vehiculos();
         System.out.print("Ingrese la marca: ");
         marca = leer.nextLine();
         System.out.print("Ingrese el tipo de vehiculo: ");
@@ -117,4 +60,3 @@ public class Vehiculos {
         this.anio = anio;
     }
 }
-
